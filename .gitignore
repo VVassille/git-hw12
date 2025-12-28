@@ -1,0 +1,37 @@
+ 
+
+Env Comanda env în Linux este folosită pentru a afișa variabilele de mediu sau pentru a rula un program cu un set modificat de variabile de mediu. 
+
+ 
+
+Export creaza variabile 
+
+whereis 
+
+Comanda whereis în Linux este folosită pentru a localiza fișierele binare, sursă și manuale (man pages) asociate cu un program. 
+
+ 
+
+[ec2-user@ip-10-0-42-153 ~]$ echo $EDITOR 
+
+nano 
+
+[ec2-user@ip-10-0-42-153 ~]$ 
+
+Mkdir –p permite sacreezi folderuri de la radacina si nu cu se face deobicei 
+
+ 
+
+Top arata in timp rela procesele sau htop 
+
+ps –ef     Comanda ps -ef în Linux este folosită pentru a afișa o listă completă a tuturor proceselor care rulează în sistem, într-un format detaliat. 
+
+Kill 
+
+Comanda ps -aux (sau mai corect, ps aux fără cratimă) este utilizată în sistemele Unix/Linux pentru a afișa o listă cu toate procesele care rulează pe sistem. Iată ce face exact fiecare parte: 
+
+Df  Comanda df în Linux/Unix înseamnă "disk free" și este folosită pentru a afișa informații despre spațiul disponibil și utilizat pe sistemele de fișiere montate. 
+
+ 
+
+ 
