@@ -1,0 +1,696 @@
+   29  whim
+   30  cd
+   31  ssh ec2-user@linux.itcareerhub.de 
+   32  mkdir GitLern
+   33  ls -al
+   34  cd
+   35  cd GitLern
+   36  clear
+   37  git config --global --user.name
+   38  git config --global --user.name "Vasile"
+   39  git config --global user.email vas.kazaku@gmail.com
+   40  git config --global list
+   41  git config --global user.email "vas.kazaku@gmail.com"
+   42  git config --global list
+   43  git config --global --list
+   44  clear
+   45  cd
+   46  cd GitLern
+   47  nano song.txt
+   48  ls -al
+   49  git init
+   50  ls -al
+   51  ls -al/git
+   52  ls -al .git/
+   53  git status
+   54  git add
+   55  git status
+   56  git add.
+   57  git status
+   58  git add.
+   59  git add .
+   60  git status
+   61  git commit -m "Initial comit"
+   62  git log
+   63  git remote add origin git@github.com:VVassille/-MINGW64-GitLern.git
+   64  git remote -v
+   65  [200~git branch -M main~
+   66  [200~git branch -M main
+   67  branch -M main
+   68  git branch -M main
+   69  git push -u origin main
+   70  cd GitLern
+   71  git clone git@github.com:VVassille/test123.git
+   72  ls -al
+   73  git clone git@github.com:VVassille/-MINGW64-GitLern-test.git
+   74  cd MINGW64-GitLern-test.git
+   75  git clone [200~git@github.com:VVassille/git_intro.git~
+   76  git clone git@github.com:VVassille/git_intro.git
+   77  ls -al
+   78  #!/bin/bash
+   79  #
+   80  #
+   81  #
+   82  DIR="/home/test"
+   83  mkdir -p $DIR
+   84  DATE=`date '+%Y-%m-%d'`
+   85  echo $DATE
+   86  for i in {1..5};   do      date '+%H-%M-%S' > $DIR/File-$i.txt;     echo "make file - File-$i.txt";     sleep 5;   done
+   87  mkdir -p $DIR/$DATE
+   88  cp  $DIR/File* $DIR/$DATE/
+   89  for FILE in $DIR/$DATE/*;    do      cat $FILE;    done
+   90  ssh ec2-user@linux.itcareerhub.de 
+   91  cp ~
+   92  cp ~/Desktop/cat.jpg ~/git_intro/
+   93  cp ~/Desktop/cat ~/git_intro/
+   94  cp ~/Desktop/cat.jpg ~/git_intro/
+   95  ls ~/Desktop
+   96  cp ~/Desktop/cat.png ~/git_intro/
+   97  git add cat.png
+   98  pwd
+   99  cd git_intro
+  100  git init
+  101  git add cat.png
+  102  git comit -m "Added cat.png"
+  103  git commit -m "Added cat.png"
+  104  git branch -M main
+  105  git@github.com:VVassille/git_intro.git
+  106  git remote add origin git@github.com:VVassille/git_intro.git
+  107  git push -u origin main
+  108  git pull origin main --allow-unrelated-histories
+  109  git push -u origin main
+  110  exit
+  111  git status
+  112  ssh ec2-user@linux.itcareerhub.de 
+  113  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOWyBDmA87zPUKL34B6OT5wQr95wm2XJs4rbXga2O6gg vas.kazaku@gmail.com
+  114  ls /c/Users/VASILE
+  115  git bransch
+  116  cd C:/Users/VASILE/proiect
+  117  cd C:/Users/VASILE/My_project
+  118  cd C:/Users/VASILE/first_Project
+  119  cd C:/Users/VASILE/firs_Project
+  120  git remote add origin https://github.com/utilizator/nume_repo.git
+  121  cd /c/Users/VASILE/firs_Project
+  122  git init
+  123  git remote add origin https://github.com/utilizator/nume_repo.git
+  124  git remote -v
+  125  git add
+  126  git add.
+  127  git bransch
+  128  git --help
+  129  cd
+  130  ls ~/.ssh
+  131  cd /c/Users/VASILE/firs_Project
+  132  git remote remove origin   
+  133  git remote add origin git@github.com:utilizator/nume_repo.git
+  134  git remote -v
+  135  ssh -T git@github.com
+  136  git add.
+  137  git comit -m "First comit"
+  138  git add .
+  139  git comit -m "First comit"
+  140  git commit -m "First commit"
+  141  git commit -m "First commit"
+  142  git push
+  143  git pull
+  144  cd
+  145  git push
+  146  git pull
+  147  ls
+  148  cd firs_Project
+  149  git status
+  150  cd
+  151  git status
+  152  echo "Hello GitHub" > readme.txt
+  153  git add .
+  154  cd ~/firs_Project
+  155  git status
+  156  git add .
+  157  git commit -m "Primul commit"
+  158  git push -u origin master
+  159  cd ~/firs_Project         # intră în proiect
+  160  echo "Hello GitHub" > readme.txt  # creează fișier
+  161  git status                # verifică fișierele
+  162  git add .                 # adaugă fișierele la staging
+  163  git commit -m "Primul commit"  # creează commit
+  164  git push -u origin master
+  165  [200~b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
+  166  QyNTUxOQAAACDlsgQ5gPO8z1Ci9+Aejk+cEK/ecJtlybOK214GtjuoIAAAAJiWoDmAlqA5
+  167  gAAAAAtzc2gtZWQyNTUxOQAAACDlsgQ5gPO8z1Ci9+Aejk+cEK/ecJtlybOK214GtjuoIA
+  168  AAAEACJPxBsVydVllmNaTvD24f/xSpaQx/lXtliWZbsg0QKuWyBDmA87zPUKL34B6OT5wQ
+  169  r95wm2XJs4rbXga2O6ggAAAAFHZhcy5rYXpha3VAZ21haWwuY29tAQ==
+  170  git bransch
+  171  cd
+  172  git config --global user.name
+  173  git config --global user.email "vas.kazaku@gmail.com"
+  174  ls -al ~/.ssh
+  175  cat ~/.ssh/id_ed25519.pub
+  176  git remote -v
+  177  ssh -T git@github.com
+  178  git log
+  179  ls -al
+  180  git bransch
+  181  [200~ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOWyBDmA87zPUKL34B6OT5wQr95wm2XJs4rbXga2O6gg vas.kazaku@gmail.com ~
+  182  ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIOWyBDmA87zPUKL34B6OT5wQr95wm2XJs4rbXga2O6gg vas.kazaku@gmail.com 
+  183  ssh ec2-user@linux.itcareerhub.de
+  184  git init
+  185  git bransche
+  186  git --help
+  187  git branch
+  188  git -v
+  189  mkdir git-branch
+  190  cd git-branch
+  191  git init
+  192  git checkout -b gitignore
+  193  git branch
+  194  touch .gitignore
+  195  code .gitignore 
+  196  cat .gitignore 
+  197  git add .gitignore
+  198  git comit -m "added .gitignore file"
+  199  git commit -m "added .gitignore file"
+  200  git push -u origin gitignore
+  201  git branch
+  202  git add .gitignore 
+  203  git commit -m "added .gitignore file"
+  204  git push -u origin gitignore
+  205  git remote add origin https://github.com/VVassille/git-branch.git
+  206  git rempte -v
+  207  git remote -v
+  208  git push -u origin gitignore
+  209  ls -al
+  210  cd /
+  211  find /GitLernen/git-branch
+  212  find /GitLernen/git-branch -name "gitignore"
+  213  find *name "txt"
+  214  find -name "git"
+  215  find -name "txt"
+  216  locate paswd
+  217  locate .conf
+  218  locate git
+  219  git init
+  220  git remote add origin git@github.com:VVassille/-MINGW64-GitLern.git
+  221  ls -al
+  222  exit
+  223  ok
+  224  find -name "txt"
+  225  find -name "git"
+  226  find -name git
+  227  ls -al
+  228  cd /git-branch
+  229  cd /git-branch/
+  230  nano test_script.sh
+  231  ./ test_script.sh 
+  232  chmod +x nume_script.sh
+  233  ./ test_script.sh 
+  234  ssh ec2-user@linux.itcareerhub.de
+  235  ls -al
+  236  cd
+  237  ls -al
+  238  cd /150825-wde
+  239  cd /150825-wde/
+  240  ls -al
+  241  ssh ec2-user@linux.itcareerhub.de 
+  242  git init
+  243  git bransch
+  244  git --help
+  245  git branch
+  246  git merge
+  247  git log --oneline --all --graph --decorate
+  248  ls -al
+  249  cd song.txt 
+  250  cd
+  251  ls -al
+  252  cd /Gitlernen/
+  253  cd /GitLern/
+  254  cd /GitLern
+  255  ls -al
+  256  cat -MINGW64-GitLern-test/
+  257  cat MINGW64-GitLern-test/
+  258  cat .git
+  259  cat song.txt 
+  260  git --help
+  261  git -c
+  262  git -p
+  263  git --log
+  264  clear
+  265  git merge --help
+  266  git checkout main
+  267  git merge faetur
+  268  ls -al
+  269  git log --oneline
+  270  git branch new-feature
+  271  git checkout new-feature
+  272  git switch new-featur
+  273  git switch new-feature
+  274  git merge new-feature
+  275  git branch -m old new
+  276  git branch
+  277  git branch header-fix
+  278  git switch header-fix 
+  279  git commit -m "Fix header"
+  280  git switch main
+  281  git merge header-fix 
+  282  git branch
+  283  git branch -r
+  284  git switch feature/login
+  285  git fetch origin
+  286  git checkout
+  287  git checkout header-fix 
+  288  git switch header-fix 
+  289  git switch main
+  290  git stash save "header-fix"
+  291  git switch header-fix 
+  292  git stash save "header-fix"
+  293  git switch main
+  294  git stash pop
+  295  git stash "WIP header changes"
+  296  git stash push -m "WIP header changes"
+  297  git stash push -m "header-fix"
+  298  git stash list
+  299  git status
+  300  git add.
+  301  git add .
+  302  git commit -m "Add all current files"
+  303  git status
+  304  git push origin main
+  305  git status
+  306  git stash push -m "WIP header changes"
+  307  git remote add origin git@github.com:VVassille/merge.git
+  308  remote -v
+  309  git push -u origin main
+  310  git log
+  311  git reset HEAD~2
+  312  git commit -am "commit after reset"
+  313  git log
+  314  git push
+  315  git pull
+  316  git status
+  317  git commit --amend -m "add new feil.txt"
+  318  git status
+  319  git commit --amend -m "add new feil.txt +test.txt"
+  320  git reset
+  321  git status
+  322  git pull
+  323  ssh ec2-user@linux.itcareerhub.de 
+  324  git init
+  325  ssh ec2-user@linux.itcareerhub.de 
+  326  cd Fork-Test/
+  327  ls -al
+  328  git branch -v
+  329  git branch -a
+  330  git checkout Develop
+  331  ssh ec2-user@linux.itcareerhub.de 
+  332  git init
+  333  cd Develop
+  334  ssh ec2-user@linux.itcareerhub.de 
+  335  git init
+  336  cd Develop
+  337  git init
+  338  cd Fork-Test
+  339  cd merge
+  340  git clone git@github.com:VVassille/Fork-Test.git
+  341  cd Fork-Test
+  342  cd Develop
+  343  git branch -a
+  344  git checkout Develop
+  345  git checkout -b Vasile
+  346  ls -al
+  347  nano Song.txt 
+  348  git status
+  349  git commit -am "Edit Song.txt"
+  350  git push
+  351   git push --set-upstream origin Vasile
+  352  nano Song.txt 
+  353  git push
+  354   git push --set-upstream origin Vasile
+  355   git checkout Develop
+  356  git pull
+  357  git branch -v
+  358  git checkout iisue2
+  359  git rebase Develop
+  360  ls -al
+  361  git pull
+  362  #!/bin/bash
+  363  set -e
+  364  if[[-z $2 ]]
+  365  #!/bin/bash
+  366  set -e
+  367  if[[-z $2 ]]
+  368  #!/bin/bash
+  369  set -e
+  370  if[[-z $2 ]]
+  371  #!/bin/bash/
+  372  read -p "Enter path for script: SCRIPTPATH"
+  373  read -p "Enter script name: "NAME"
+  374  mkdir -p  "$SCRIPTPATH"
+  375  ls "$SCRIPTPATH"/"$NAME" 2>/dev/null
+  376  if[$? -eq 0];
+  377  then
+  378  echo "File already exists"
+  379  exit 1
+  380  else
+  381  echo "Script created successfully : $SCRIPTPATH/$NAME"
+  382  chmod +x "$SCRIPTPATH"/"$NAME"
+  383  fi
+  384  ls -al
+  385  git status
+  386  git remote -v
+  387  git log --oneline
+  388  git checkout --orphan temp_main
+  389  git add cat.png
+  390  echo "# git_intgro" > README:md
+  391  echo "# git_intgro" > README.md
+  392  git add README.md
+  393  git commit -m "Added photo"
+  394  git log --oneline
+  395  git branch -M main
+  396  git remote remove origin
+  397  git remote add origin git@github.com:VVassille/git_intro.git
+  398  git push -u origin main --force
+  399  ssh ec2-user@linux.itcareerhub.de 
+  400  nano
+  401  ssh ec2-user@linux.itcareerhub.de 
+  402  git init
+  403  git clone https://github.com/VVassille/git-hw12/tree/main
+  404  git status
+  405  git clone https://github.com/VVassille/git-hw12
+  406  git status
+  407  git checkout -b feature
+  408  git branch
+  409  nano README.md
+  410  nano .gitignore
+  411  git add README.md  .gitignore 
+  412  git add README.md .gitignore 
+  413  git commit -m "Update README.md and .gitignore"
+  414  git push origin feature
+  415  git commit --amed -m "Update README.md and .gitignore ammend"
+  416  git push --force origin feature
+  417  git checkout main
+  418  git pull origin main
+  419  rm .git/.MERGE_MSG.swp
+  420  git commit -m "Finish merge"
+  421  git status
+  422  git checkout -b feature
+  423  git branch
+  424  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+  425  $ git init
+  426  Reinitialized existing Git repository in C:/Users/VASILE/GitLern/.git/
+  427  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+  428  $ git clone https://github.com/VVassille/git-hw12/tree/main
+  429  Cloning into 'main'...
+  430  fatal: repository 'https://github.com/VVassille/git-hw12/tree/main/' not found
+  431  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+  432  $ git status
+  433  On branch main
+  434  Your branch and 'origin/main' have diverged,
+  435  and have 1 and 1 different commits each, respectively.
+  436    (use "git pull" if you want to integrate the remote branch with yours)
+  437  All conflicts fixed but you are still merging.
+  438    (use "git commit" to conclude merge)
+  439  Untracked files:
+  440    (use "git add <file>..." to include in what will be committed)
+  441          -MINGW64-GitLern-test-1/
+  442          Fork-Test/
+  443  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+  444  $ git clone https://github.com/VVassille/git-hw12
+  445  Cloning into 'git-hw12'...
+  446  remote: Enumerating objects: 6, done.
+  447  remote: Counting objects: 100% (6/6), done.
+  448  remote: Compressing objects: 100% (4/4), done.
+  449  remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+  450  Receiving objects: 100% (6/6), done.
+  451  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+  452  $ git status
+  453  On branch main
+  454  Your branch and 'origin/main' have diverged,
+  455  and have 1 and 1 different commits each, respectively.
+  456    (use "git pull" if you want to integrate the remote branch with yours)
+  457  All conflicts fixed but you are still merging.
+  458    (use "git commit" to conclude merge)
+  459  Untracked files:
+  460    (use "git add <file>..." to include in what will be committed)
+  461          -MINGW64-GitLern-test-1/
+  462          Fork-Test/
+  463          git-hw12/
+  464  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+  465  $ git checkout -b feature
+  466  Switched to a new branch 'feature'
+  467  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  468  $ git branch
+  469  * feature
+  470    header-fix
+  471    main
+  472    new-feature
+  473  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  474  $ nano README.md
+  475  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  476  $ nano .gitignore
+  477  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  478  $ git add README.md  .gitignore
+  479  warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+  480  warning: in the working copy of 'README.md', LF will be replaced by CRLF the next time Git touches it
+  481  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  482  $ git add README.md .gitignore
+  483  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  484  $ git commit -m "Update README.md and .gitignore"
+  485  [feature 550e4bd] Update README.md and .gitignore
+  486   2 files changed, 20 insertions(+)
+  487   create mode 100644 .gitignore
+  488   create mode 100644 README.md
+  489  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  490  $ git push origin feature
+  491  Enumerating objects: 8, done.
+  492  Counting objects: 100% (8/8), done.
+  493  Delta compression using up to 12 threads
+  494  Compressing objects: 100% (6/6), done.
+  495  Writing objects: 100% (7/7), 843 bytes | 168.00 KiB/s, done.
+  496  Total 7 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+  497  remote: Resolving deltas: 100% (1/1), done.
+  498  remote:
+  499  remote: Create a pull request for 'feature' on GitHub by visiting:
+  500  remote:      https://github.com/VVassille/-MINGW64-GitLern/pull/new/feature
+  501  remote:
+  502  To github.com:VVassille/-MINGW64-GitLern.git
+  503   * [new branch]      feature -> feature
+  504  VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (feature)
+  505  $ git commit --amed -m "Update README.md and .gitignore ammend"
+  506  error: unknown option `amed'
+usage: git commit [-a | --interactive | --patch] [-s] [-v] [-u[<mode>]] [--amend]
+                  [--dry-run] [(-c | -C | --squash) <commit> | --fixup [(amend|reword):]<commit>]
+                  [-F <file> | -m <msg>] [--reset-author] [--allow-empty]
+                  [--allow-empty-message] [--no-verify] [-e] [--author=<author>]
+                  [--date=<date>] [--cleanup=<mode>] [--[no-]status]
+                  [-i | -o] [--pathspec-from-file=<file> [--pathspec-file-nul]]
+                  [(--trailer <token>[(=|:)<value>])...] [-S[<keyid>]]
+                  [--] [<pathspec>...]
+
+    -q, --[no-]quiet      suppress summary after successful commit
+    -v, --[no-]verbose    show diff in commit message template
+
+Commit message options
+    -F, --[no-]file <file>
+                          read message from file
+    --[no-]author <author>
+                          override author for commit
+    --[no-]date <date>    override date for commit
+    -m, --[no-]message <message>
+                          commit message
+    -c, --[no-]reedit-message <commit>
+                          reuse and edit message from specified commit
+    -C, --[no-]reuse-message <commit>
+                          reuse message from specified commit
+    --[no-]fixup [(amend|reword):]commit
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From github.com:VVassille/-MINGW64-GitLern
+ * branch            main       -> FETCH_HEAD
+Merge made by the 'ort' strategy.
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main)
+$ rm .git/.MERGE_MSG.swp
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main)
+$ git commit -m "Finish merge"
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        -MINGW64-GitLern-test-1/
+        Fork-Test/
+        git-hw12/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main)
+$ git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        -MINGW64-GitLern-test-1/
+        Fork-Test/
+        git-hw12/
+
+nothing added to commit butVASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+$ git init
+Reinitialized existing Git repository in C:/Users/VASILE/GitLern/.git/
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+$ git clone https://github.com/VVassille/git-hw12/tree/main
+Cloning into 'main'...
+fatal: repository 'https://github.com/VVassille/git-hw12/tree/main/' not found
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        -MINGW64-GitLern-test-1/
+        Fork-Test/
+
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+$ git clone https://github.com/VVassille/git-hw12
+Cloning into 'git-hw12'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (4/4), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+$ git status
+On branch main
+Your branch and 'origin/main' have diverged,
+and have 1 and 1 different commits each, respectively.
+  (use "git pull" if you want to integrate the remote branch with yours)
+
+All conflicts fixed but you are still merging.
+  (use "git commit" to conclude merge)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        -MINGW64-GitLern-test-1/
+        Fork-Test/
+        git-hw12/
+
+
+VASILE@DESKTOP-DHIHRG9 MINGW64 ~/GitLern (main|MERGING)
+$ git checkout -b feature
+
+
+git push origin main
+
+git checkout feature
+git add README.md .gitignore
+git commit -m "Update README.md and .gitignore"
+git push origin feature
+
+git status
+q!
+
+
+
+
+
+q
+q
+q
+q
+
+
+
+.q1
+.q!
+:q
+:q!
+;q!
+:q!
+:q!
+
+  507  git status
+  508  git push origin main
+  509  git branch
+  510  git checkout feature
+  511  git status
+  512  cd git-hw12
+  513  ls -al
+  514  git branch
+  515  git status
+  516  git status
+  517  git branch
+  518  git merge feature
+  519  git branch
+  520  git branch -r
+  521  git fetch origin feature:feature
+  522  git branch
+  523  git checkout -b feature
+  524  git commit -m "Update README:md and .gitignore"
+  525  git push origin feature
+  526  git checkout main
+  527  git merge feature
+  528  history > history.txt
